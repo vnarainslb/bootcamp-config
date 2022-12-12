@@ -23,6 +23,12 @@ bootstrap:
         - cdf-group: cdf:all:read
           idp-source-id: 82aab306-a6a8-4abe-9108-76628e228e02
           idp-source-name: bootcamp-07-test-all-read
+        - cdf-group: cdf:oee:owner
+          idp-source-id: c4ce92be-298c-4889-9a1b-95d7c74e59cf
+          idp-source-name: bootcamp-07-test-uc-001-oee-owner
+        - cdf-group: cdf:oee:read
+          idp-source-id: 0b6d2c93-6d50-4aa2-b79e-6057ece452ff
+          idp-source-name: bootcamp-07-test-uc-001-oee-read          
 
     - cdf-project: cdf-bootcamp-07-prod
       mappings:
@@ -34,6 +40,12 @@ bootstrap:
           idp-source-name: bootcamp-07-prod-all-owner
         - cdf-group: cdf:all:read
           idp-source-id: f5a3b668-2839-4930-a34d-e84d7462ec89
+          idp-source-name: bootcamp-07-prod-all-read
+        - cdf-group: cdf:oee:owner
+          idp-source-id: cdc3efc3-9e79-4258-bd40-3cd8ed913de8
+          idp-source-name: bootcamp-07-prod-all-owner
+        - cdf-group: cdf:oee:read
+          idp-source-id: 7eb64fff-cf80-4436-bca6-f97bcb50bb38
           idp-source-name: bootcamp-07-prod-all-read
 
   namespaces:
