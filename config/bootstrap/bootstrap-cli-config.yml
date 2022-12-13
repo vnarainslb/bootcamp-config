@@ -24,7 +24,7 @@ bootstrap:
           idp-source-id: 82aab306-a6a8-4abe-9108-76628e228e02
           idp-source-name: bootcamp-07-test-all-read
 
-    - cdf-project: cdf-bootcamp-<n>-prod
+    - cdf-project: cdf-bootcamp-07-prod
       mappings:
         - cdf-group: cdf:root
           idp-source-id: dd0fa706-44ed-4975-98d2-9184d2b2171f
