@@ -40,7 +40,7 @@ dataSetExternalId: uc:001:oee:ds
 #   cdfProjectName: ${CDF_PROJECT_NAME}
 #   scopes: 
 #    - ${SCOPES}
-#   # Optional: If idP requires providing the audience
+#   # Optional: If idP requires providing the audience, test
 #   audience: ${AUDIENCE}
 authentication:
     clientId: ${COGNITE_CLIENT_ID}
